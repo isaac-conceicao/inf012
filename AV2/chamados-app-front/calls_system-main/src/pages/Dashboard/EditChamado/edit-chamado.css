@@ -1,0 +1,92 @@
+.modalBackground-edit-chamado {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.800);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modalContainer-edit-chamado {
+    width: 500px;
+    height: 600px;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.modalContainer-edit-chamado .title-edit-chamado {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titleCloseBtn-edit-chamado {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn-edit-chamado button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.status-edit-chamado input {
+    margin-bottom: 20px;
+}
+
+.modalContainer-edit-chamado label {
+    margin-bottom: 10px;
+}
+
+.modalContainer-edit-chamado .body-edit-chamado {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.modalContainer-edit-chamado label {
+    margin-top: 10px;
+}
+
+.modalContainer-edit-chamado .status-edit-chamado input {
+    margin-right: 5px;
+}
+
+.modalContainer-edit-chamado .status-edit-chamado span {
+   margin-right: 20px;
+}
+
+.modalContainer-edit-chamado .footer-edit-chamado {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea-edit-chamado {
+    resize: none;
+    height: 150px;
+}
+
+.modalContainer-edit-chamado .footer-edit-chamado button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cancelBtn {
+    background-color: crimson;
+}

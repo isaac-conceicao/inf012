@@ -1,0 +1,27 @@
+.notfound-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notfound-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.notfound-title {
+    margin-bottom: 20px;
+}
+
+.notfound-subtitle {
+    margin-bottom: 20px;
+}
+
+.notfound-image {
+    width: 70%;
+    height: 70%;
+}

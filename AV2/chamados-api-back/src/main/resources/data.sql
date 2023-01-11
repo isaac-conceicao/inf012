@@ -1,0 +1,4 @@
+INSERT INTO usuarios(UID, NOME, EMAIL) values ('0','ADMIN','admin@email.com');
+INSERT INTO clientes (ID, NOME, CNPJ, ENDERECO,DATA_CADASTRO,USUARIO_UID) values (0,'TEST CLIENT 0','01234567000123','TEST ADRESS 0',CURRENT_TIMESTAMP(),'0');
+INSERT into chamados (ID, ASSUNTO, COMPLEMENTO, DATA_CADASTRO, STATUS, CLIENTE_ID) values (0,'SUPORTE','TEST COMPLEMENT TEXT 0: Lorem ipsum dolor sit amet, consectetur adipiscing elit...',CURRENT_TIMESTAMP(),'ABERTO',0);
+INSERT into chamados (ID, ASSUNTO, COMPLEMENTO, DATA_CADASTRO, STATUS, CLIENTE_ID) values (1,'DESENVOLVIMENTO','TEST COMPLEMENT TEXT 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit...',CURRENT_TIMESTAMP(),'ABERTO',0);

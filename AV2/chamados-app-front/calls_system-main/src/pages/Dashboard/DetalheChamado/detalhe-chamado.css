@@ -1,0 +1,49 @@
+.modalBackground-detalhe-chamado {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.800);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modalContainer-detalhe-chamado {
+    width: 500px;
+    height: 360px;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.modalContainer-detalhe-chamado .title-detalhe-chamado {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titleCloseBtn-detalhe-chamado {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn-detalhe-chamado button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer-detalhe-chamado .body-detalhe-chamado {
+    flex: 50%;
+    display: flex;
+}
+
+.textarea-detalhe-chamado {
+    margin-top: 20px;
+    width: 100%;
+    resize: none;
+}
